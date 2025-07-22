@@ -1,7 +1,18 @@
-langchain
-chromadb
-sentence-transformers
-groq
+# Core RAG App
 streamlit
+langchain>=0.2.0
+langchain-community
+langchain-chroma
+chromadb>=1.0.14
+
+# Embedding model (HuggingFace)
+sentence-transformers
+
+# Groq API SDK
+groq
+
+# Load .env file for Groq API key
 python-dotenv
+
+# For PDF support (optional)
 PyPDF2
